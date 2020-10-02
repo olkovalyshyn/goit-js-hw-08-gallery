@@ -49,8 +49,6 @@ function onOpenModal(evt) {
     return;
   }
 
-  evt.target.src = evt.target.dataset.source;
-
   // 3.Открытие модального окна по клику на элементе галереи.
   refs.lightboxEl.classList.add("is-open");
 
@@ -94,4 +92,3 @@ function onEscClick(evt) {
 //ArrowRight ArrowLeft
 //
 //
-// imgToModalInsert();
